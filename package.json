@@ -1,0 +1,47 @@
+{
+  "name": "backend-ticker",
+  "version": "0.0.1",
+  "description": "Exchange Ticker Data Proxy",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/MoonAssistDev/backend-ticker.git"
+  },
+  "author": "Eric Anderson, Jan",
+  "private": true,
+  "engines": {
+    "node": "^11.5.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "yarn && jest"
+  },
+  "dependencies": {
+    "big": "^0.5.2",
+    "bittrex-signalr-client": "^1.1.0",
+    "bluebird": "^3.5.1",
+    "ccxt": "^1.18.358",
+    "cloudscraper": "^1.4.1",
+    "crypto-js": "^3.1.9-1",
+    "ejs": "^2.5.6",
+    "eslint": "^4.11.0",
+    "express": "^4.15.2",
+    "express-session": "^1.15.6",
+    "fetch": "^1.1.0",
+    "fetch-ponyfill": "^5.0.0",
+    "http": "^0.0.0",
+    "http.request": "^0.1.7",
+    "https": "^1.0.0",
+    "jsonic": "^0.3.0",
+    "moment": "^2.22.0",
+    "node-cache": "^4.1.1",
+    "poloniex-api-node": "^1.8.1",
+    "pre-push": "^0.1.1",
+    "request": "^2.83.0",
+    "uuid": "^3.2.1",
+    "ws": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^22.3.0"
+  }
+}
